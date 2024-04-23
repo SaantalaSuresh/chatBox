@@ -1,0 +1,69 @@
+.chat-box-container{
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+    padding:10px;
+    border-radius: 10px;
+    width:100vw;
+}
+
+.chat-box-cart-container{
+    padding:20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 90vh;
+    background-color:#dbdbd9 ;
+    width:50%;
+
+}
+@media screen and (max-width:576px) {
+    .chat-box-cart-container{
+        width: 80%;
+    }
+    
+}
+.input-text-box-container{
+background-color: white;
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding:5px;
+border-radius: 10px;
+}
+
+.input-text-box{
+    width: 80%;
+    height: 30px;
+    border-width: 0px;
+    outline: none;
+    padding-left: 10px;
+    margin-right: 10px;
+    background-color: transparent;
+}
+
+.send-btn{
+    background-color: transparent;
+    border-width: 0;
+}
+
+.icon{
+    color: blue;
+    font-size: 22px;
+    cursor: pointer;;
+}
+.unorderedList{
+    list-style-type: none;
+}
+
+.count-card{
+    display: flex;
+    justify-content: space-between;
+}
+.back-hr{
+    background-color: black;
+}

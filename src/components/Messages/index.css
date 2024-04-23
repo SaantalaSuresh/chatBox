@@ -1,0 +1,62 @@
+.first-letter{
+    background-color: red;
+    color:white;
+    height: 40px;
+    width: 40px;
+    border-radius: 26px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    font-family: 'Roboto';
+}
+
+.bg-card-message{
+    display: flex;
+}
+.name-container{
+    display: flex;
+    padding-top: 10px;
+    height:40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.name{
+color: black;
+font-weight: bold;
+padding-right: 10px;
+}
+.time{
+    font-size: 8px;
+    font-weight: bold;
+}
+.message{
+    background-color: white;
+    padding:6px;
+    padding-left: 10px;
+    
+    border-radius: 6px;
+    margin-top: 0px;
+    padding-top: 0px;
+
+    max-width: 80%;
+}
+
+.back1{
+    background-color: blue;
+
+}
+.back2{
+    background-color: red;
+
+}
+.back3{
+    background-color: orange;
+}
+.back4{
+    background-color: pink;
+}
+.back5{
+    background-color: greenyellow;
+}
